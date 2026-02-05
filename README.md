@@ -34,32 +34,24 @@ These questions guided both the data model and the dashboard structure.
 ## Page 1 — Sales overview
 
 Question: Is revenue growing?
-Revenue shows consistent year-over-year growth
-Category view highlights where most revenue comes from
 
 ### Insight:
-Revenue is increasing steadily over time.
+Yes, revenue is increasing steadily over time.
 <img width="895" height="502" alt="Screenshot 2026-02-04 at 10 11 13" src="https://github.com/user-attachments/assets/c90ebd8c-aa2f-4863-8edc-5a5a7e5e5748" />
-
-
 
 ## Page 2 — Where is revenue coming from? (Categories and Products)
 
 Question: Which categories and products drive revenue?
-Revenue is concentrated in specific category and product combinations
-A small number of segments contribute most to total revenue and growth
 
 ### Insight:
-A few categories and products are the main revenue drivers.
+Urban category in convenience segment is the main revenue driver. Maximus UC-76 product drives the most growth.
 <img width="1943" height="1101" alt="Screenshot 2026-02-04 at 10 20 24" src="https://github.com/user-attachments/assets/14fd6df9-2fb4-4dd2-b7eb-d88f55d2961d" />
 
 
 ## Page 3 — What’s driving revenue growth? (Units vs Price)
 Question: Is growth driven by volume or price?
-Unit sales are increasing
-Average prices remain relatively stable
 
-### Insight:
+### Insight: Unit sales are increasing & average prices remain relatively stable
 <img width="973" height="548" alt="Screenshot 2026-02-04 at 10 34 36" src="https://github.com/user-attachments/assets/85bb313e-c5ce-4d17-8029-b776301dae74" />
 
 
