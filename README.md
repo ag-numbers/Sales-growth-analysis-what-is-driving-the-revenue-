@@ -15,7 +15,8 @@ These questions guided both the data model and the dashboard structure.
 2) Performed data profiling and cleaned the data in Power Query (data types, NULLs)
 3) Created a Date table
 4) Built a star schema to connect the tables
-<img width="512" height="217" alt="model star schema" src="https://github.com/user-attachments/assets/a5ee5fa3-7e11-46af-8df7-1bd5d29896c8" />
+<img width="768" height="468" alt="Screenshot 2026-02-05 at 10 17 17" src="https://github.com/user-attachments/assets/1065e167-2e0e-422a-b65e-77aa31240bc2" />
+
 
 ## I created the following measures for complete analysis (DAX)
 
@@ -38,7 +39,8 @@ Category view highlights where most revenue comes from
 
 ### Insight:
 Revenue is increasing steadily over time.
-<img width="512" height="286" alt="sales overview p1" src="https://github.com/user-attachments/assets/e20dbacc-a31f-40e7-971a-1f24c1474965" />
+<img width="895" height="502" alt="Screenshot 2026-02-04 at 10 11 13" src="https://github.com/user-attachments/assets/c90ebd8c-aa2f-4863-8edc-5a5a7e5e5748" />
+
 
 
 ## Page 2 — Where is revenue coming from? (Categories and Products)
@@ -49,7 +51,8 @@ A small number of segments contribute most to total revenue and growth
 
 ### Insight:
 A few categories and products are the main revenue drivers.
-<img width="512" height="289" alt="p2" src="https://github.com/user-attachments/assets/8ad30cb2-98e3-4304-aedb-66114ec85765" />
+<img width="1943" height="1101" alt="Screenshot 2026-02-04 at 10 20 24" src="https://github.com/user-attachments/assets/14fd6df9-2fb4-4dd2-b7eb-d88f55d2961d" />
+
 
 ## Page 3 — What’s driving revenue growth? (Units vs Price)
 Question: Is growth driven by volume or price?
@@ -57,8 +60,8 @@ Unit sales are increasing
 Average prices remain relatively stable
 
 ### Insight:
-Revenue growth is demand-driven, not price-driven.
-<img width="512" height="282" alt="p3" src="https://github.com/user-attachments/assets/e088e7ec-f042-4062-a92d-093c14666145" />
+<img width="973" height="548" alt="Screenshot 2026-02-04 at 10 34 36" src="https://github.com/user-attachments/assets/85bb313e-c5ce-4d17-8029-b776301dae74" />
+
 
 # Final conclusion
 Revenue is growing consistently. Growth is concentrated in specific product categories and is driven mainly by increased unit sales rather than price increases.
