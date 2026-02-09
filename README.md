@@ -56,4 +56,4 @@ Question: Is growth driven by volume or price?
 
 
 # Final conclusion
-Revenue is growing consistently. Growth is in urbane product category and is driven mainly by increased unit sales rather than price increases.
+Revenue is growing consistently. Growth is in urban product category and is driven mainly by increased unit sales rather than price increases.
