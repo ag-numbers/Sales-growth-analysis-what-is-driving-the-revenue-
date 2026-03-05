@@ -14,7 +14,7 @@ These questions guided both the data model and the dashboard structure.
 1) Loaded sales and product data into Power BI
 2) Performed data profiling and cleaned the data in Power Query (data types, NULLs)
 3) Created a Date table
-4) Built a star schema to connect the tables
+4) Built a snowflake schema to connect the tables
 <img width="768" height="468" alt="Screenshot 2026-02-05 at 10 17 17" src="https://github.com/user-attachments/assets/1065e167-2e0e-422a-b65e-77aa31240bc2" />
 
 
