@@ -8,9 +8,9 @@ The company sells products across multiple categories and segments. Management w
 3) Which products have the strongest impact on revenue performance?
 
 Key insights: 
-1) Revenue growth drivers: Revenue increased 10.4% YoY, supported by growth in both units sold (+4.47%) and average price (+5.69%), indicating that demand expansion combined with pricing improvements contributed to overall growth.
-2) The Urban category accounts for approximately 77% of total revenue, making it the dominant business segment. Other categories contribute significantly less, suggesting strong market concentration.
-3) Key influencer analysis indicates that specific products from the Maximus product line are associated with higher revenue performance, suggesting that product mix plays an important role in driving revenue outcomes.
+1. Revenue grew 10.4% year-over-year. Growth was supported by both higher sales volume (+4.47%) and a moderate increase in average price (+5.69%), showing that demand and pricing both contributed to the increase.
+2. The Urban category generates about 77% of total revenue, making it the main source of business performance. Other categories contribute much less, indicating strong reliance on one segment.
+3. Key influencer analysis shows that several products from the Maximus product line are associated with higher revenue levels, suggesting that this type of product plays an important role in overall performance.
 
 ## Business recommendations
 
@@ -18,9 +18,7 @@ Based on the analysis:
 
 1. Focus on the Urban category: Since the Urban segment generates the majority of revenue, prioritize product development, marketing, and distribution in this category.
 2. Align operations with seasonal demand: Increase inventory and marketing activity before peak demand periods in Q2–Q3 to maximize sales.
-
 3. Promote high-performing products: Products from the Maximus line are strongly associated with higher revenue and should be prioritized in promotions and sales strategies.
-
 4. Expand growth in smaller markets: Revenue is concentrated in a few countries; exploring underperforming markets could unlock additional growth opportunities.
 
 ## Data preparation
