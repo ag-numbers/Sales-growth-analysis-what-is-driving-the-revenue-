@@ -53,7 +53,7 @@ The model allows flexible analysis across time, product categories, segments and
 - Avg Price PY = CALCULATE([Avg Price], SAMEPERIODLASTYEAR('Date'[Date]))
 - Avg Price Growth % = DIVIDE([Avg Price] - [Avg Price PY],[Avg Price PY])
 
-# Dashboard and insights
+# Dashboard
 ## Page 1 — Revenue trend - What's the general trend?
 <img width="951" height="531" alt="trend final" src="https://github.com/user-attachments/assets/2ad31f08-2c58-4452-a777-acb2c5163cfd" />
 
