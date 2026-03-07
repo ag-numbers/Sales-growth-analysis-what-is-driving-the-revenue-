@@ -1,33 +1,53 @@
 # Sales growth analysis - what is driving the revenue
-## Goal
+## Business context
 
+The company sells products across multiple categories and segments. Management wants to understand what is driving revenue growth in order to prioritize product strategy and marketing investments.
+
+Key business questions:
+- Is the growth coming from more units sold or higher prices?
+- Which product categories and segments contribute the most to revenue?
+- Which products are driving the largest share of growth?
+  
 Understand whether revenue is growing and what is driving that growth.
-The goal of this analysis was to answer three core questions:
-- Is revenue growing over time?
-- Which categories and products contribute most to revenue and growth?
-- Is revenue growth driven by higher sales volume or higher prices?
 
-These questions guided both the data model and the dashboard structure.
+## Business recommendations
 
-## Data preparation and modeling
+Based on the analysis:
+
+• Focus on the Urban category which contributes the largest share of revenue.
+• Expand products similar to Maximus UC-76, which shows the strongest growth contribution.
+• Since growth is primarily driven by unit sales rather than price increases, marketing and distribution strategies should prioritize volume expansion.
+• Monitor price stability to ensure margins remain sustainable while volume grows.
+
+## Data preparation
 
 1) Loaded sales and product data into Power BI
 2) Performed data profiling and cleaned the data in Power Query (data types, NULLs)
 3) Created a Date table
-4) Built a snowflake schema to connect the tables
-<img width="768" height="468" alt="Screenshot 2026-02-05 at 10 17 17" src="https://github.com/user-attachments/assets/1065e167-2e0e-422a-b65e-77aa31240bc2" />
 
+## Data model
+
+The dataset was structured using a snowflake schema.
+Fact table:
+- Sales (Revenue, Units)
+Dimension tables:
+- Date
+- Product
+- Manufacturer
+- Geography
+
+The model allows flexible analysis across time, product categories, segments and regions.
+<img width="768" height="468" alt="Screenshot 2026-02-05 at 10 17 17" src="https://github.com/user-attachments/assets/1065e167-2e0e-422a-b65e-77aa31240bc2" />
 
 ## I created the following measures for complete analysis (DAX)
 
 - Revenue = SUM(Sales[Revenue])
 - Units = SUM(Sales[Units])
-- Previous year measures
-- Revenue PY = CALCULATE([Revenue], SAMEPERIODLASTYEAR(Date[Date]))
+- Revenue PY = PY Revenue = CALCULATE (SUM (Sales[Revenue]), SAMEPERIODLASTYEAR ( 'Date'[Date]))
 - Revenue Growth % = DIVIDE([Revenue] - [Revenue PY], [Revenue PY])
-- Units PY = CALCULATE([Units], SAMEPERIODLASTYEAR(Date[Date]))
-- Units Growth % = DIVIDE([Units] - [Units PY], [Units PY])
-- Avg Price = DIVIDE([Revenue], [Units])
+- Units PY = CALCULATE(sum(Sales[Units]), SAMEPERIODLASTYEAR('Date'[Date]))
+- Units Growth % = DIVIDE(sum(Sales[Units]) - [Units PY], [Units PY])
+- Avg Price = DIVIDE(SUM([Revenue]), sum(Sales[Units]))
 - Avg Price PY = DIVIDE([Revenue PY], [Units PY])
 
 # Dashboard and insights
@@ -57,3 +77,4 @@ Question: Is growth driven by volume or price?
 
 # Final conclusion
 Revenue is growing consistently. Growth is in urban product category and is driven mainly by increased unit sales rather than price increases.
+
