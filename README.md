@@ -49,6 +49,7 @@ The model allows flexible analysis across time, product categories, segments and
 - Units Growth % = DIVIDE(sum(Sales[Units]) - [Units PY], [Units PY])
 - Avg Price = DIVIDE(SUM([Revenue]), sum(Sales[Units]))
 - Avg Price PY = CALCULATE([Avg Price], SAMEPERIODLASTYEAR('Date'[Date]))
+- Avg Price Growth % = DIVIDE([Avg Price] - [Avg Price PY],[Avg Price PY])
 
 # Dashboard and insights
 ## Page 1 — Sales overview
@@ -70,9 +71,8 @@ Urban category in convenience segment is the main revenue driver. Maximus UC-76 
 
 ## Page 3 — What’s driving revenue growth? (Units vs Price)
 Question: Is growth driven by volume or price?
-
 ### Insight: Unit sales are increasing & average prices remain relatively stable
-<img width="973" height="548" alt="Screenshot 2026-02-04 at 10 34 36" src="https://github.com/user-attachments/assets/85bb313e-c5ce-4d17-8029-b776301dae74" />
+<img width="1049" height="587" alt="Screenshot 2026-03-07 at 10 42 48" src="https://github.com/user-attachments/assets/300c888a-f2eb-4511-b29f-d2b51037a244" />
 
 
 # Final conclusion
