@@ -7,7 +7,7 @@ The company sells products across multiple categories and segments. Management w
 2) Which categories and segments contribute the most to total revenue and growth?
 3) Which products have the strongest impact on revenue performance?
 
-Key insights: 
+## Key insights: 
 1. Revenue grew 10.4% year-over-year. Growth was supported by both higher sales volume (+4.47%) and a moderate increase in average price (+5.69%), showing that demand and pricing both contributed to the increase.
 2. The Urban category generates about 77% of total revenue, making it the main source of business performance with the potential dependancy risk. Other categories contribute much less, indicating strong reliance on one segment.
 3. Key influencer analysis shows that several products from the Maximus product line are associated with higher revenue levels, suggesting that this type of product plays an important role in overall performance.
