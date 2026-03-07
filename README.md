@@ -3,21 +3,25 @@
 
 The company sells products across multiple categories and segments. Management wants to understand what is driving revenue growth in order to prioritize product strategy and marketing investments.
 
-Key business questions:
-- Is the growth coming from more units sold or higher prices?
-- Which product categories and segments contribute the most to revenue?
-- Which products are driving the largest share of growth?
-  
-Understand whether revenue is growing and what is driving that growth.
+1) What is driving revenue growth: higher sales volume or price increases?
+2) Which categories and segments contribute the most to total revenue and growth?
+3) Which products have the strongest impact on revenue performance?
+
+Key insights: 
+1) Revenue growth drivers: Revenue increased 10.4% YoY, supported by growth in both units sold (+4.47%) and average price (+5.69%), indicating that demand expansion combined with pricing improvements contributed to overall growth.
+2) The Urban category accounts for approximately 77% of total revenue, making it the dominant business segment. Other categories contribute significantly less, suggesting strong market concentration.
+3) Key influencer analysis indicates that specific products from the Maximus product line are associated with higher revenue performance, suggesting that product mix plays an important role in driving revenue outcomes.
 
 ## Business recommendations
 
 Based on the analysis:
 
-• Focus on the Urban category which contributes the largest share of revenue.
-• Expand products similar to Maximus UC-76, which shows the strongest growth contribution.
-• Since growth is primarily driven by unit sales rather than price increases, marketing and distribution strategies should prioritize volume expansion.
-• Monitor price stability to ensure margins remain sustainable while volume grows.
+1. Focus on the Urban category: Since the Urban segment generates the majority of revenue, prioritize product development, marketing, and distribution in this category.
+2. Align operations with seasonal demand: Increase inventory and marketing activity before peak demand periods in Q2–Q3 to maximize sales.
+
+3. Promote high-performing products: Products from the Maximus line are strongly associated with higher revenue and should be prioritized in promotions and sales strategies.
+
+4. Expand growth in smaller markets: Revenue is concentrated in a few countries; exploring underperforming markets could unlock additional growth opportunities.
 
 ## Data preparation
 
@@ -52,29 +56,13 @@ The model allows flexible analysis across time, product categories, segments and
 - Avg Price Growth % = DIVIDE([Avg Price] - [Avg Price PY],[Avg Price PY])
 
 # Dashboard and insights
-## Page 1 — Sales overview
+## Page 1 — Revenue trend - What's the general trend?
+<img width="951" height="531" alt="trend final" src="https://github.com/user-attachments/assets/2ad31f08-2c58-4452-a777-acb2c5163cfd" />
 
-Question: Is revenue growing?
-
-### Insight:
-Yes, revenue is increasing steadily over time.
-<img width="895" height="502" alt="Screenshot 2026-02-04 at 10 11 13" src="https://github.com/user-attachments/assets/c90ebd8c-aa2f-4863-8edc-5a5a7e5e5748" />
-
-## Page 2 — Where is revenue coming from? (Categories and Products)
-
-Question: Which categories and products drive revenue?
-
-### Insight:
-Urban category in convenience segment is the main revenue driver. Maximus UC-76 product drives the most growth.
-<img width="1943" height="1101" alt="Screenshot 2026-02-04 at 10 20 24" src="https://github.com/user-attachments/assets/14fd6df9-2fb4-4dd2-b7eb-d88f55d2961d" />
+## Page 2 — Revenue drivers - What’s driving revenue growth? (Units vs Price))
+<img width="950" height="534" alt="drivers final " src="https://github.com/user-attachments/assets/4bf9db12-0e9b-4d38-b3e0-6f8f810ab21c" />
 
 
-## Page 3 — What’s driving revenue growth? (Units vs Price)
-Question: Is growth driven by volume or price?
-### Insight: Unit sales are increasing & average prices remain relatively stable
-<img width="1049" height="587" alt="Screenshot 2026-03-07 at 10 42 48" src="https://github.com/user-attachments/assets/300c888a-f2eb-4511-b29f-d2b51037a244" />
-
-
-# Final conclusion
-Revenue is growing consistently. Growth is in urban product category and is driven mainly by increased unit sales rather than price increases.
+## Page 3 — Product drivers - Which product/segment drives revenue growth?
+<img width="950" height="532" alt="growth final" src="https://github.com/user-attachments/assets/11b2db44-eafc-4bb9-85ac-0b569d87aacb" />
 
