@@ -52,6 +52,7 @@ The model allows flexible analysis across time, product categories, segments and
 - Avg Price = DIVIDE(SUM([Revenue]), sum(Sales[Units]))
 - Avg Price PY = CALCULATE([Avg Price], SAMEPERIODLASTYEAR('Date'[Date]))
 - Avg Price Growth % = DIVIDE([Avg Price] - [Avg Price PY],[Avg Price PY])
+- %GT Revenue =DIVIDE(SUM(Sales[Revenue]),CALCULATE(SUM(Sales[Revenue]), ALL(Sales)))
 
 # Dashboard
 ## Page 1 — Revenue trend - What's the general trend?
