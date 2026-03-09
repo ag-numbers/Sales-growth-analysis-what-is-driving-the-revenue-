@@ -45,8 +45,8 @@ The model allows flexible analysis across time, product categories, segments and
 
 - Revenue = SUM(Sales[Revenue])
 - Units = SUM(Sales[Units])
-- Revenue PY = PY Revenue = CALCULATE (SUM (Sales[Revenue]), SAMEPERIODLASTYEAR ( 'Date'[Date]))
-- Revenue Growth % = DIVIDE([Revenue] - [Revenue PY], [Revenue PY])
+- PY Revenue = CALCULATE (SUM (Sales[Revenue]), SAMEPERIODLASTYEAR ( 'Date'[Date]))
+- Revenue Growth % = DIVIDE([Revenue] - [PY Revenue], [PY Revenue])
 - Units PY = CALCULATE(sum(Sales[Units]), SAMEPERIODLASTYEAR('Date'[Date]))
 - Units Growth % = DIVIDE(sum(Sales[Units]) - [Units PY], [Units PY])
 - Avg Price = DIVIDE(SUM([Revenue]), sum(Sales[Units]))
